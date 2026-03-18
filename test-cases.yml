@@ -157,6 +157,6 @@
   test-data: |
     Email = hexlet@gmail.ru Пароль = 123456&
   steps:
-    - В DevTools выбрать "Dimensions: iPhone SE"
+    - В DevTools выбрать "Dimensions" - "iPhone SE"
   expected-result: |
     Текст не выходит "за границы" на разных устройствах
