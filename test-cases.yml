@@ -189,6 +189,8 @@
     Страница создания баттла открывается корректно
   prerequisites:
     Осуществлён вход в систему
+  test-data: |
+    Email = hexlet@gmail.ru Пароль = 123456&
   steps:
     - Нажимаем "Create a battle"
   expected-result: |
@@ -200,6 +202,8 @@
     Страница присоединения к баттлу открывается корректно
   prerequisites:
     Осуществлён вход в систему
+  test-data: |
+    Email = hexlet@gmail.ru Пароль = 123456&
   steps:
     - Нажимаем "Join a battle"
   expected-result: |
@@ -211,6 +215,8 @@
     Страница создания игры открывается корректно
   prerequisites:
     Открыто окно "Create game"
+  test-data: |
+    Email = hexlet@gmail.ru Пароль = 123456&
   steps:
     - Нажимаем "Create battle"
   expected-result: |
@@ -222,6 +228,8 @@
     Окно с сообщением о завершении баттла отображается корректно
   prerequisites:
     Была создана игра. Оппонент победил в игре
+  test-data: |
+    Email = hexlet@gmail.ru Пароль = 123456&
   steps:
     - Дождаться появления окна с сообщением о завершении игры
   expected-result: |
@@ -233,6 +241,8 @@
     При нажатии "Back to Home" открывается главная страница пользователя
   prerequisites:
     Была создана игра. Открыта страница с игрой
+  test-data: |
+    Email = hexlet@gmail.ru Пароль = 123456&
   steps:
     - Нажимаем "Back to Home"
   expected-result: |
@@ -244,6 +254,8 @@
     Блок с заданием находится сверху, блок с временем игры под ним
   prerequisites:
     Открыта главная страница пользователя
+  test-data: |
+    Email = hexlet@gmail.ru Пароль = 123456&
   steps:
   - Создать баттл
   expected-result: |
@@ -255,6 +267,8 @@
     При создании баттла можно установить бесконечное время игры
   prerequisites:
     Открыто окно "Create game"
+  test-data: |
+    Email = hexlet@gmail.ru Пароль = 123456&
   steps:
     - Сдвинуть ползунок "Time control" максимально вправо
   expected-result: |
@@ -266,6 +280,8 @@
     При окончании игры у проигравшего остаётся возможность писать и проверять свой код
   prerequisites:
     Была создана игра. Открыта страница с игрой
+  test-data: |
+    Email = hexlet@gmail.ru Пароль = 123456&
   steps:
     - Завершить игру в статусе проигравшего 
   expected-result: |
